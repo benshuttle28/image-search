@@ -14,7 +14,7 @@ function fillSearchBoxWithCaptions(captions) {
     captions.forEach(function(caption) {
         searchQuery += caption + ' '; // Concatenate captions
     });
-    console.log('Search query: ', searchQuery);
+    //console.log('Search query: ', searchQuery);
     return searchQuery.trim(); // Return concatenated captions
 }
 
@@ -52,8 +52,7 @@ function displayResults(data) {
                 imageElement.src = item.pagemap.cse_thumbnail[0].src;
                 imageElement.alt = item.title;
             } else {
-                // If image data is not available, use a placeholder image
-                imageElement.src = 'placeholder.jpg'; 
+                // display image not available
                 imageElement.alt = 'Image not available';
             }
             imageLink.appendChild(imageElement);
