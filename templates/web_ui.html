@@ -3,28 +3,7 @@
 
 <head>
     <link rel="icon" type="image/png" href="static/images/favicon.png">
-    <style>
-        body {
-            background-color: azure;
-        }
-
-        h1 {
-            color: black;
-            text-align: center;
-            font-family: Helvetica;
-        }
-
-        p {
-            color: cornflowerblue;
-            text-align: center;
-            font-family: Tahoma;
-        }
-
-        h2 {
-            font-family: Roboto;
-            text-align: left
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="static/css/desktop.css">
     <script>
         // Function to pre-fill search box with captions and return the concatenated captions
         function fillSearchBoxWithCaptions(captions) {
@@ -122,7 +101,7 @@
     {% endif %}
     <!-- Custom Search Box -->
     <form>
-        <input type="text" name="q" id="search" size="60" value="" />
+        <input type="text" name="q" id="search" size="70" value="" />
         <input type="submit" value="Search" onclick="return search_query()" />
     </form>
     <!-- Placeholder for search results -->
