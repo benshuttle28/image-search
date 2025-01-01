@@ -92,10 +92,10 @@
             var captions = {{ captions| tojson
         }};
         fillSearchBoxWithCaptions(captions);
-        document.getElementById('search').value = captions.join(' '); // Set the value of the search box
+        document.getElementById('search').value = captions.join(''); // Set the value of the search box
         };
     </script>
-    <p>Image uploaded. Press search to see results.</p>
+    <p>Image processed. Press search to see results.</p>
     {% else %}
     <p>No image uploaded yet.</p>
     {% endif %}

@@ -4,14 +4,15 @@ body {
 
 h1 {
     color: black;
-    text-align: center;
+    text-align: left;
     font-family: Helvetica;
 }
 
 p {
     color: cornflowerblue;
-    text-align: center;
+    text-align: left;
     font-family: Tahoma;
+    margin-top: 50px;
 }
 
 h2 {
