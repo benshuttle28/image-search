@@ -12,9 +12,9 @@ def index():
         # Get the uploaded file from the form
         uploaded_file = request.files['myfile']
         # Save the file to a temporary location
-        uploaded_file.save('temp.jpg')
+        uploaded_file.save('static/images/temp.jpg')
         # Call the backend function to process the image
-        captions = get_short_form_image_captions("amazing-city-418415", "us-east4", 'temp.jpg')
+        captions = get_short_form_image_captions("amazing-city-418415", "us-east4", 'static/images/temp.jpg')
     return render_template('web_ui.html', captions=captions)
 
 if __name__ == '__main__':
