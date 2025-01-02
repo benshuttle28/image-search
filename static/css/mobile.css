@@ -1,0 +1,26 @@
+body {
+    background-color: azure;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+    font-family: Helvetica;
+}
+
+p {
+    color: cornflowerblue;
+    text-align: left;
+    font-family: Tahoma;
+    margin-top: 25px;
+    font-size: 10px;
+}
+
+h2 {
+    font-family: Roboto;
+    text-align: left
+}
+
+#search {
+    margin: 5px;
+}
